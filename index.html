@@ -1,67 +1,16 @@
-<link rel="stylesheet" href="project1/styles.css" type="text/css">
-<div id="ajax-page" class="ajax-page-content">
-    <div class="ajax-page-wrapper">
-        <div class="ajax-page-nav">
-            <div class="nav-item ajax-page-close-button">
-                <a id="ajax-page-close-button" href="#"><i class="lnr lnr-cross"></i></a>
-            </div>
-        </div>
-
-        <div class="ajax-page-title">
-            <h1>PacMen Factory</h1>
-        </div>
-        <div class="row">
-            <div class="col-sm-8 col-md-8 portfolio-block">
-                <div class="row">
-                    <button onclick='makeOne()'>Add PacMan</button>
-                    <button onclick='update()'>Start Game</button>
-                </div>
-                <div class="row">
-                    <div id="game">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-md-4 portfolio-block">
-                <!-- Project Description -->
-                <div class="project-description" id="description">
-                    <div class="block-title">
-                        <h3>Description</h3>
-                    </div>
-                    <ul class="project-general-info">
-                        <li>
-                            <p><i class="fa fa-user"></i> Saul F. Vega Montenegro</p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-globe"></i> <a href="https://snando2020.github.io/#portfolio/project1" target="_blank">https://snando2020.github.io/</a></p>
-                        </li>
-                        <li>
-                            <p><i class="fa fa-calendar"></i> 01 June, 2022</p>
-                        </li>
-                        <li>
-                            <p><i class="fab fa-github"></i><span><a href="https://github.com/snando2020/PacMenFactory" target="_blank">  Repository github</a></span></p>
-                        </li>
-
-                    </ul>
-
-                    <p class="text-justify">The code was developed by creating a collision function that detects the edges of an area such as a div in which the image changes direction, the position of the image was worked on as well as the movement times.</p>
-                    <!-- /Project Description -->
-
-                    <!-- Technology -->
-                    <div class="tags-block">
-                        <div class="block-title">
-                            <h3>Technology</h3>
-                        </div>
-                        <ul class="tags">
-                            <li><a>HTML</a></li>
-                            <li><a>CSS</a></li>
-                            <li><a>Javascript</a></li>
-                        </ul>
-                    </div>
-                    <!-- /Technology -->
-
-                </div>
-                <!-- Project Description -->
-            </div>
-        </div>
-    </div>
-</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PacMen Factory</title>
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+<body>
+    <button onclick='makeOne()'>Add PacMan</button>
+    <button onclick='update()'>Start Game</button>
+   <div id="game">
+   </div>
+<script src="./pacmen.js"></script>
+</body>
+</html>
